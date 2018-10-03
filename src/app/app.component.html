@@ -1,20 +1,259 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div>
+    <mat-toolbar color="primary" class="animated fadeInDown">
+  
+      <span>PORTFOLIO</span>
+      <div class="button-row menu-button">
+          <a mat-raised-button routerLink="." href="#competences" class="scrollTo button-menu">COMPETENCES</a>
+          <a mat-raised-button routerLink="." href="#env" class="scrollTo button-menu">ENVIRONEMENT</a>
+          <a mat-raised-button routerLink="." href="#projets" class="scrollTo button-menu">PROJETS</a>
+          <a mat-raised-button routerLink="." href="#formations" class="scrollTo button-menu">FORMATIONS</a>
+          <a mat-raised-button routerLink="." href="#veille" class="scrollTo button-menu">VEILLE</a>
+          <a mat-raised-button routerLink="." href="#experiences" class="scrollTo button-menu">EXPERIENCES</a>
+          <a mat-raised-button routerLink="." href="#contact" class="scrollTo button-menu">CONTACT</a>
+      </div>
 
+    </mat-toolbar>
+
+</div>
+
+
+
+<div class="parallax parallax-1 animated fadeIn">
+  <h1 class="title animated fadeIn">Morgan Millet</h1>
+  <h2 class="title2 animated fadeIn">Développeur Full-Stack</h2>
+
+  <div class="button-row animated fadeIn">
+    <a mat-raised-button routerLink=".">Télécharger le CV en PDF</a>
+  </div>
+</div>
+
+<div id="competences">
+<br><br>
+<mat-card class="animated fadeInUpBig">
+  <div>
+      <div class="row area">
+        <h1>Compétences</h1>
+
+        <div class="col-md-6">
+          <h2>Back-End</h2>
+          <hr>
+          <h3>PHP</h3>
+          <p>
+            <b>PHP 7</b> est mon langage de prédilection, grâce à lui, je dynamise mes
+            sites web et leur donne vie.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/PHP-Logo.png" alt="php">
+        </div>
+      </div>
+      
+
+      <div class="row area">
+        <div class="col-md-6">
+          <h3>SYMFONY</h3>
+          <p>
+            <b>Symfony 4</b> est l'un de mes framework favori, je peux rendre mes sites rapides,
+            performants et sécruisés. Parfait pour des sites E-Commerces ou d'autres grands projets.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/symfony_logo.png" alt="symfony">
+        </div>
+      </div>
+
+      <div class="row area">
+        <div class="col-md-6">
+          <h2>Front-end</h2>
+          <hr>
+          <h3>Les scripts</h3>
+          <p>
+            Le <b>Typescript</b> est un langage récent qui complète le <b>Javascript</b>,
+            celui ci va de pair avec le framework Angular de Google.
+          </p>
+        </div>
+          <div class="col-md-6">
+            <img src="../assets/images/typescript-logo.png" alt="typescript">
+            <img src="../assets/images/javascript.png" alt="javascript">
+          </div>
+      </div>
+  
+      <div class="row area">
+        <div class="col-md-6">
+          <h2>Pour les sites vitrines</h2>
+          <hr>
+          <p>
+            <b>Angular</b> est un framework qui se prète tout particulièrement aux sites vitrines, accompagné du Typescript,
+            je peux faire des sites animées et perfermormant.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/angular.png" alt="angular">
+        </div>
+      </div>
+  
+      <div class="row area">
+        <div class="col-md-6">
+          <h2>Language du web</h2>
+          <hr>
+          <p>
+            J’ai une bonne maîtrise du <b>HTML</b> et du <b>CSS</b> ainsi que de <b>Bootstrap</b>.
+            J’utilise également <b>jQuery</b> pour les animations.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/html_css.png" alt="html_css">
+          <img src="../assets/images/Bootstrap.png" alt="bootstrap">
+          <img src="../assets/images/jquery.png" alt="jquery">
+          <img src="../assets/images/Sass_Logo.svg.png" alt="sass">
+        </div>
+      </div>
+  
+      <div class="row area">
+        <div class="col-md-6">
+          <h2>Divers</h2> 
+          <hr>
+          <h3>C</h3>
+          <p>
+            Pendant ma "piscine" (Concours sur une durée d'un mois) à l'école Le-101, j'ai été ammené à créer des algorithmes en langage <b>C</b> afin de résoudre différents type de problèmes.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/C.png" alt="C">
+        </div>
+      </div>
+  </div>
+</mat-card>
+</div>
+
+<div class="parallax parallax-2 animated fadeIn"></div>
+
+<div id="env">
+  <br><br>
+  <mat-card class="animated fadeInUpBig">
+    <br><br>
+      <h1>Environement de travail</h1>
+
+      <div class="row area">
+
+        <div class="col-md-6">
+          <h2>IDE & EDITEURS</h2>
+          <hr>
+          <p>
+            J’utilise principalement les IDE <b>Phpstorm</b> et <b>Visual Studio Code</b> ainsi que des éditeurs comme <b>Sublime Text</b> ou <b>Atom</b>.
+          </p>
+        </div>
+        <div class="col-md-6">
+            <img src="../assets/images/phpstorm.png" alt="phpstorm">
+            <img src="../assets/images/visualstudiocode.png" alt="visualstudiocode">
+          </div>
+      </div>
+        
+      <div class="row area">
+        <div class="col-md-6">
+          <h2>GIT / LINUX</h2>
+          <hr>
+          <p>
+            Je versionne mon code avec <b>Git</b> via PhpStorm ou en ligne de commande.
+            <br>
+            Je sais utiliser et configurer un environnement <b>linux</b> pour un environnement de bureau ou serveur.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="../assets/images/git.png" alt="git">
+          <img src="../assets/images/linux.png" alt="linux">
+        </div>
+      </div>
+  </mat-card>
+</div>
+
+<!-- <div class="parallax parallax-3 animated fadeIn"></div> -->
+
+<!--
+<div id="projets">
+<br><br>
+  <mat-card class="animated fadeInUpBig">
+    <div class="scolaire">
+        <h1>PROJETS SCOLAIRES</h1>
+    </div>
+    <div class="stages">
+        <h1>PROJETS STAGES</h1>
+    </div>
+  </mat-card>
+</div>
+-->
+
+<!-- <div class="parallax parallax-4 animated fadeIn"></div> -->
+
+<div id="formations">
+  <br><br>
+  <mat-card class="animated fadeInUpBig">
+      <h1>Formation</h1>
+      <div class="row area">
+        <div class="col-md-12">
+          <h3>BTS SIO</h3>
+          <h4></h4>
+      
+          <br>
+      
+          <h3>Le-101</h3>
+          <h4>"Piscine" d'une durée de 3 semaines dans laquel j'ai appris les bases du Shell ainsi que la programmation en langage C.</h4> 
+          
+          <br>
+      
+          <h3>BAC STMG option SIG</h3>
+          <h4>BAC technologique en option informatique pendant lequel nous devions créer en groupe un site basique en HTML, CSS et MySql. J'ai en plus fait du PHP en complément de ce qui était demandé au BAC.</h4>
+        </div>
+      </div>
+  </mat-card>
+</div>
+
+<!-- <div class="parallax parallax-5 animated fadeIn"></div> -->
+
+<!--
+<div id="veille">
+  <br><br>
+
+  <mat-card class="animated fadeInUpBig">
+    <h1>Veilles technologiques</h1>
+  </mat-card>
+</div>
+-->
+
+<!-- <div class="parallax parallax-7 animated fadeIn"></div> -->
+
+<div id="experiences">
+  <br><br>
+  <mat-card class="animated fadeInUpBig">
+    <h1>Experiences professionel</h1>
+    <div class="row area">
+      <div class="col-md-12">
+        <h3>2017</h3>
+        <h5>Employer commercial</h5>
+        <h5>Manutentionaire</h5>
+        <h5>Préparateur de commande</h5>
+          
+        <h3>2015</h3>
+        <h5>Agent d'entretien dans une école</h5>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+<!-- <div class="parallax parallax-8 animated fadeIn"></div> -->
+
+<div id="contact">
+<br><br>
+<mat-card class="animated fadeInUpBig">  
+    <h1>Contact</h1>
+    <div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Mail">
+      </mat-form-field>
+    
+      <mat-form-field>
+        <textarea matInput placeholder="Message" rows="5"></textarea>
+      </mat-form-field>
+    </div>
+  </mat-card>
+</div>
