@@ -44,6 +44,11 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import { CompetencesComponent } from './competences/competences.component';
 import { EnvironnementComponent } from './environnement/environnement.component';
+import { ProjetComponent } from './projet/projet.component';
+import { FormationComponent } from './formation/formation.component';
+import { VeilleComponent } from './veille/veille.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -55,7 +60,12 @@ import { EnvironnementComponent } from './environnement/environnement.component'
     MessagesComponent,
     DashboardComponent,
     CompetencesComponent,
-    EnvironnementComponent
+    EnvironnementComponent,
+    ProjetComponent,
+    FormationComponent,
+    VeilleComponent,
+    ExperienceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

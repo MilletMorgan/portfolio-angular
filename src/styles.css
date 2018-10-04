@@ -62,7 +62,29 @@ html, body {
       opacity: 0.5;
       font-size: 1.5em;
   }
+
+  .left-arrow {
+    font-size: 5em;
+    left: 0;
+    position: absolute;
+    margin-left: 15vh;
+
+    color: #FFF!important;
+    opacity: 0.95!important;
+    text-shadow: 0 0px 5px black;
+  }
   
+.right-arrow {
+  font-size: 5em;
+  right: 0;
+  position: absolute;
+  margin-right: 15vh;
+
+  color: #FFF!important;
+  opacity: 0.95!important;
+  text-shadow: 0 0px 5px black;
+}
+
   .title {
     color: #fff;
     font-size: 4em;
@@ -256,6 +278,7 @@ html, body {
   .menu-button{
       position: absolute;
       right: 0;
+      bottom: -4px!important;
   }
   
   .button-row button,
