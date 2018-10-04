@@ -1,3 +1,42 @@
+
+<router-outlet>
+    <div>
+        <mat-toolbar color="primary" class="animated fadeInDown">
+      
+          <span>PORTFOLIO</span>
+          <div class="button-row menu-button">
+              <ul class="cards">
+                  <li *ngFor="let card of cards">
+                    <a mat-raised-button routerLink="." href="#competences" class="scrollTo button-menu" routerLink="/{{card.id}}">
+                      <span class="badge">{{card.id}}</span> {{card.name}}
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </mat-toolbar>
+    </div>
+
+    <div class="parallax parallax-1 animated fadeIn">
+      <h1 class="title animated fadeIn">Morgan Millet</h1>
+      <h2 class="title2 animated fadeIn">Développeur Full-Stack</h2>
+      
+      <div class="button-row animated fadeIn">
+        <a mat-raised-button routerLink=".">Télécharger le CV en PDF</a>
+      </div>
+    </div>
+
+
+
+    <!--
+    <nav>
+      <a routerLink="/dashboard">Dashboard</a>
+      <a routerLink="/cards">Cards</a>
+    </nav>
+    -->
+    <app-messages></app-messages>
+</router-outlet>
+
+<!--
 <div>
     <mat-toolbar color="primary" class="animated fadeInDown">
   
@@ -11,12 +50,8 @@
           <a mat-raised-button routerLink="." href="#experiences" class="scrollTo button-menu">EXPERIENCES</a>
           <a mat-raised-button routerLink="." href="#contact" class="scrollTo button-menu">CONTACT</a>
       </div>
-
     </mat-toolbar>
-
 </div>
-
-
 
 <div class="parallax parallax-1 animated fadeIn">
   <h1 class="title animated fadeIn">Morgan Millet</h1>
@@ -27,6 +62,7 @@
   </div>
 </div>
 
+<!--
 <div id="competences">
 <br><br>
 <mat-card class="animated fadeInUpBig">
@@ -185,6 +221,7 @@
 
 <!-- <div class="parallax parallax-4 animated fadeIn"></div> -->
 
+<!--
 <div id="formations">
   <br><br>
   <mat-card class="animated fadeInUpBig">
@@ -222,6 +259,7 @@
 
 <!-- <div class="parallax parallax-7 animated fadeIn"></div> -->
 
+<!--
 <div id="experiences">
   <br><br>
   <mat-card class="animated fadeInUpBig">
@@ -242,6 +280,7 @@
 
 <!-- <div class="parallax parallax-8 animated fadeIn"></div> -->
 
+<!--
 <div id="contact">
 <br><br>
 <mat-card class="animated fadeInUpBig">  
@@ -257,3 +296,8 @@
     </div>
   </mat-card>
 </div>
+
+<br><br><br><br><br><br><br>
+
+-->
+

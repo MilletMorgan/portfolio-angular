@@ -24,9 +24,348 @@ html, body {
 
   }
   
+
+  .table {
+    display: table;   /* Allow the centering to work */
+    margin: 0 auto;
+  }
+  
+  ul {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    }
+    li {
+      display: inline;
+      list-style: none;
+    }
+
   .done {
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: white;
+  }
+
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+      color: #448aff;
+      font-size: 2em;
+      font-family: 'Merienda', cursive;
+  }
+  
+  h2 {
+      color: #448aff;
+      opacity: 0.5;
+      font-size: 1.5em;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 0 0px 5px black;
+    font-family: 'Merienda', cursive;
+  }
+  
+  .title2 {
+    color: #FFF!important;
+    font-size: 2em;
+    opacity: 0.95!important;
+    text-shadow: 0 0px 5px black;
+  }
+  
+  .row.area {
+      margin-top: 25px!important;
+  }
+  
+  mat-toolbar.mat-toolbar.mat-primary.mat-toolbar-single-row {
+      background: #fff;
+      color: #000;
+      position: fixed;
+      z-index: 2;
+      box-shadow: 0 -5px 10px black;
+  }
+  
+  span.mat-form-field-ripple {
+      background: #448aff!important;
+  }
+  
+  mat-card.mat-card {
+      border-radius: 20px;
+      z-index: 1;
+  }
+  
+  a {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    background-color: white;
+    border-radius: 48px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 16px;
+    position: relative;
+  }
+  
+  a.scrollTo.mat-stroked-button[_ngcontent-c0] {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    background-color: white;
+    border-radius: 48px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0 16px;
+    position: relative;
+  }
+  
+  /**
+  .mat-raised-button:not([class*=mat-elevation-z]) {
+    box-shadow: 0 0px 3px 0 rgba(0,0,0,.2), 0 -1px 3px 0 rgba(0,0,0,.14), 0 0px 3px 0 rgba(0,0,0,.12);
+  }
+  **/
+  a.scrollTo.mat-stroked-button {
+      border-radius: 25px;
+  }
+  
+  a.mat-raised-button {
+      border-radius: 25px;
+  }
+  
+  .button-menu{
+    color: #448aff;
+  }
+  
+  .button-menu:hover{
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .parallax-1[_ngcontent-c0] {
+    background: url("/assets/images/img02.jpg");
+    height: 85vh;
+    padding-top: 15vh;
+    margin-bottom: -55vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-2[_ngcontent-c0] {
+  background: url("/assets/images/img05.jpg");
+  height: 100vh;
+  margin-bottom: -50vh;
+  margin-top: -50vh;
+  
+  color: #000 !important;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  .parallax-3[_ngcontent-c0] {
+    background: url("/assets/images/img03.jpg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-4[_ngcontent-c0] {
+    background: url("/assets/images/img04.jpg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-5[_ngcontent-c0] {
+    background: url("/assets/images/img05.jpg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-6[_ngcontent-c0] {
+    background: url("/assets/images/img06.jpg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-7[_ngcontent-c0] {
+    background: url("assets/images/img07.jpg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax-8[_ngcontent-c0] {
+    background: url("/assets/images/img08.jpeg");
+    height: 100vh;
+    margin-bottom: -50vh;
+    margin-top: -50vh;
+  
+    color: #000 !important;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+  
+  .menu-button{
+      position: absolute;
+      right: 0;
+  }
+  
+  .button-row button,
+  .button-row a {
+    margin-right: 8px;
+  }
+  
+  .main-title{
+      color: #FFF;
+  }
+  
+  .example-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+    }
+    
+  .example-full-width {
+      width: 100%;
+    }
+  
+  .example-container {
+      display: flex;
+      flex-direction: column;
+  }
+    
+  .example-container > * {
+      width: 100%;
+  }  
+    
+  .row {
+      text-align: center!important;
+  
+      margin-left: 25% !important;
+      margin-right: 25%!important;
+  
+      margin-top: 50px!important;
+  
+  
+      padding-top: 25px;
+      padding-bottom: 25px;
+  
+  }
+  
+  
+  
+  img{
+      height: 150px;
+      width: auto;
+  }
+  
+  .flt-lft{float: left;}
+  .flt-rgt{float: right;}
+  
+  .area{
+  margin-top: 100px!important;
+  }
+  
+  hr{
+  width: 75%;
+  opacity: 0.5;
+  margin-bottom: 24px!important;
+  }
+  
+  .subtitle {
+  width: 25%;
+  opacity: 0.5;
+  margin-bottom: 24px!important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  h1 {
+    font-size: 1.2em;
+    color: #999;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+  }
+  nav a:visited, a:link {
+    color: #607d8b;
+  }
+  nav a:hover {
+    color: #039be5;
+    background-color: #cfd8dc;
+  }
+  nav a.active {
+    color: #039be5;
   }

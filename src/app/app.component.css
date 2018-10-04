@@ -1,3 +1,5 @@
+/**
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -73,7 +75,7 @@ a.scrollTo.mat-stroked-button[_ngcontent-c0] {
 .mat-raised-button:not([class*=mat-elevation-z]) {
   box-shadow: 0 0px 3px 0 rgba(0,0,0,.2), 0 -1px 3px 0 rgba(0,0,0,.14), 0 0px 3px 0 rgba(0,0,0,.12);
 }
-**/
+
 a.scrollTo.mat-stroked-button {
     border-radius: 25px;
 }
@@ -278,3 +280,46 @@ margin-bottom: 24px!important;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+  font-size: 1.2em;
+  color: #999;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: #607d8b;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #cfd8dc;
+}
+nav a.active {
+  color: #039be5;
+}
+**/
